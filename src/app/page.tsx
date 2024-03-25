@@ -1,6 +1,6 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import HomePage from "@/pages/home/pages/home";
+import HomePage from "@/module/home/pages/home";
 import Image from "next/image";
 
 export default function Home() {
