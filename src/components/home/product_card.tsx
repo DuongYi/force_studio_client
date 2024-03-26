@@ -11,7 +11,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     <div className="flex-1 flex-col items-start justify-center shadow-[rgba(17,_17,_26,_0.08)_0px_0px_20px] p-4 rounded-2xl">
       <img src={product.image} alt={product.productName} className="w-full h-48 rounded-[18px] shadow-[rgba(17,_17,_26,_0.05)_0px_0px_10px] object-cover object-top" />
       <div className='mt-5'>
-        <h2 className='text-2xl font-bold mb-3'>{product.productName}</h2>
+        <h2 className='text-black text-2xl font-bold mb-3'>{product.productName}</h2>
         <p className='text-lg text-gray-500 line-clamp-2 overflow-clip'>{product.description}</p>
       </div>
       <div className='mt-5'>
@@ -22,7 +22,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       <div className='flex justify-between mt-7'>
         <div className='flex flex-col items-start justify-start gap-1'>
           <p className='text-md font-semibold text-gray-500'>Price</p>
-          <p className='text-lg font-bold'>Free to play</p>
+          <p className='text-black text-lg font-bold'>Free to play</p>
         </div>
         <div>
           <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-full text-sm px-6 py-2.5 text-center shadow-md shadow-purple-300">

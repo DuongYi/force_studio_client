@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <header className="bg-transparent absolute  left-0 right-0 z-50">
       <div className="container max-w-screen-2xl mx-auto flex justify-start items-center py-4">
         <a href="/" className="flex items-center">
-          <img className="w-24" src="/asset/logo/Force.png" alt="Logo" />
+          <img className="w-24" src="/asset/pictures/logo/Force.png" alt="Logo" />
           <div>
             <h1 className="text-xl font-extrabold text-black font-mono">Force</h1>
             <h2 className="text-xl font-extrabold text-black font-mono">Studio</h2>

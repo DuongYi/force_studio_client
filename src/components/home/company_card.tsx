@@ -18,7 +18,7 @@ const CompanyCard: React.FC<CompanyCardProps> = ({ icon, color, shadowColor, tit
         <img src={icon} alt="icon" className="w-10 h-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
       </div>
       <div className="mt-6 text-start">
-        <h1 className="text-2xl font-bold mb-3">{title}</h1>
+        <h1 className="text-black text-2xl font-bold mb-3">{title}</h1>
         <p className="text-gray-500">{description}</p>
       </div>
     </div>

@@ -13,22 +13,22 @@ const Platform: React.FC = () => {
     {
       id: 1,
       name: 'Apple',
-      image: 'asset/logo/apple.png'
+      image: 'asset/pictures/logo/apple.png'
     },
     {
       id: 2,
       name: 'CH Play',
-      image: 'asset/logo/chplay.png'
+      image: 'asset/pictures/logo/chplay.png'
     },
     {
       id: 3,
       name: 'Window',
-      image: 'asset/logo/window.png'
+      image: 'asset/pictures/logo/window.png'
     }
   ];
 
   return (
-    <section className="bg-[url('/asset/white-bg.jpg')] bg-cover bg-no-repeat">
+    <section className="bg-[url('/asset/pictures/home/white-bg.jpg')] bg-cover bg-no-repeat">
       <div className="flex flex-col flex-wrap w-full py-6">
         <div className='max-w-screen-2xl w-full mx-auto'>
           <div className='flex justify-between content-center'>

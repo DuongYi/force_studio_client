@@ -27,9 +27,9 @@ CompanyDescription.defaultProps = {
   title: 'We believe strong company come from strong value and visions',
   description: 'Building a foundation for success - the power of shared values and visions in creating a strong company.',
   positiveList: [
-    new CompanyCardModel(1, "next.svg", "bg-[#ffc700]", "shadow-[#f2d885]", 'Collaborations #1', 'Fostering innovation and unlocking new possibilities through partnerships - the story of Collaborations #1.'),
-    new CompanyCardModel(2, "vercel.svg", "bg-[#24dbda]", "shadow-[#8ef2f2]", 'Keep Growing', 'Embracing change, cultivating resilience, and striving for excellence - the journey of those who Keep Growing.'),
-    new CompanyCardModel(3, "vercel.svg", "bg-[#80db24]", "shadow-[#c7fd92]", 'Team Chemistry', 'A cohesive team is greater than the sum of its parts, and the secret to our success lies in the unique contributions.'),
+    new CompanyCardModel(1, "asset/pictures/icon/next.svg", "bg-[#ffc700]", "shadow-[#f2d885]", 'Collaborations #1', 'Fostering innovation and unlocking new possibilities through partnerships - the story of Collaborations #1.'),
+    new CompanyCardModel(2, "asset/pictures/icon/vercel.svg", "bg-[#24dbda]", "shadow-[#8ef2f2]", 'Keep Growing', 'Embracing change, cultivating resilience, and striving for excellence - the journey of those who Keep Growing.'),
+    new CompanyCardModel(3, "asset/pictures/icon/vercel.svg", "bg-[#80db24]", "shadow-[#c7fd92]", 'Team Chemistry', 'A cohesive team is greater than the sum of its parts, and the secret to our success lies in the unique contributions.'),
   ]
 };
 
