@@ -30,7 +30,7 @@ const Platform: React.FC = () => {
   return (
     <section className="bg-[url('/asset/white-bg.jpg')] bg-cover bg-no-repeat">
       <div className="flex flex-col flex-wrap w-full py-6">
-        <div className='max-w-screen-2xl w-full mx-auto px-4'>
+        <div className='max-w-screen-2xl w-full mx-auto'>
           <div className='flex justify-between content-center'>
             {platformList.map((platform) => (
               <div key={platform.id} >

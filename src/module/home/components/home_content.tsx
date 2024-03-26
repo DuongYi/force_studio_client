@@ -11,7 +11,9 @@ const HomeContent: React.FC<HomeContentProps> = (props: HomeContentProps) => {
   return (
     <section className={props.classNameSection}>
       <div className={props.classNameDiv}>
-        {props.children}
+        <div className='max-w-screen-2xl w-full mx-auto '>
+          {props.children}
+        </div>
       </div>
     </section>
   );
@@ -19,8 +21,8 @@ const HomeContent: React.FC<HomeContentProps> = (props: HomeContentProps) => {
 
 // default props
 HomeContent.defaultProps = {
-  classNameSection: 'relative z-[2] pt-24',
-  classNameDiv: 'flex flex-col flex-wrap w-full pt-14 pb-14',
+  classNameSection: '',
+  classNameDiv: 'flex flex-col flex-wrap w-full',
 };
 
 export default HomeContent;

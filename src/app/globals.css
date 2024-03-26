@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'Filson';
+  src: url(/public/asset/font/FilsonProBlack.otf);
+}
