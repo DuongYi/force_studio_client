@@ -9,18 +9,18 @@ const Footer: React.FC = () => {
           <div className='col-span-2'>
             <div className='flex flex-col'>
               <div className="flex flex-wrap items-center">
-                <img src="asset/pictures/logo/Force.png" alt="Logo" className="w-12 h-12 mr-4" />
+                <img src="asset/pictures/logo/logo_white.png" alt="Logo" className="w-20 h-20 mr-2" />
                 <span className="text-white text-lg font-bold">Force G. Studios</span>
               </div>
-              <p className="text-white text-5xl font-bold tracking-wider mt-6">Force Game Studio.</p>
-              <p className="text-white text-5xl font-bold tracking-wider mt-3">Lovely developers</p>
+              <p className="text-white text-xl sm:text-3xl lg:text-5xl font-bold tracking-wider mt-6">Force Game Studio.</p>
+              <p className="text-white text-xl sm:text-3xl lg:text-5xl font-bold tracking-wider mt-3">Lovely developers</p>
             </div>
           </div>
           <div className='col-span-1 max-md:col-span-2'>
             <div className='container'>
-              <p className='text-gray-100 text-lg'>Crafting unforgettable gaming experiences with passion, creativity, and a touch of sweetness</p>
+              <p className='text-gray-100 text-sm sm:text-base lg:text-lg'>Crafting unforgettable gaming experiences with passion, creativity, and a touch of sweetness</p>
               <div className='mt-6'>
-                <button type="button" className="text-[#162c48] text-xl font-extrabold bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 rounded-full px-9 py-[14px] text-center shadow-lg shadow-yellow-500/30">Lets Talk</button>
+                <button type="button" className="text-[#162c48] text-lg md:text-xl font-extrabold bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 rounded-full px-9 py-[14px] text-center shadow-lg shadow-yellow-500/30">Lets Talk</button>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
         <div className='grid grid-cols-12 max-lg:grid-cols-5 gap-20 max-lg:gap-10 pt-14 pb-14 items-start'>
           <div className='col-span-5'>
             <p className='text-white text-lg font-bold'>Best Games Developers!</p>
-            <p className='text-gray-300 mt-4'>From indie studio major players, these game developers have captured our imaginations and elevated the art of gaming to new heights</p>
+            <p className='text-gray-300 mt-4 text-sm md:text-base'>From indie studio major players, these game developers have captured our imaginations and elevated the art of gaming to new heights</p>
           </div>
           <div className='col-span-5 max-lg:col-span-3 max-sm:col-span-5 px-10 max-lg:px-0'>
             <div className='flex justify-between'>

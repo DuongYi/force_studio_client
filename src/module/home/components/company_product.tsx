@@ -10,7 +10,7 @@ interface CompanyProductProps {
 const CompanyProduct: React.FC<CompanyProductProps> = (props: CompanyProductProps) => {
   return (
     <div className='pb-10'>
-      <h1 className='text-black text-5xl font-bold max-w-screen-sm leading-[60px]'>{props.title}</h1>
+      <h1 className='text-black text-xl sm:text-3xl lg:text-5xl font-bold max-w-screen-sm leading-[30px] sm:leading-[45px] lg:leading-[60px]'>{props.title}</h1>
       <div className='grid grid-cols-4 items-start mt-10 gap-10'>
         {props.products?.map((product) => {
           return <ProductCard key={product.id} product={product} />;
