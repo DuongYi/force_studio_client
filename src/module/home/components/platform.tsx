@@ -31,10 +31,10 @@ const Platform: React.FC = () => {
     <section className="bg-[url('/asset/pictures/home/white-bg.jpg')] bg-cover bg-no-repeat">
       <div className="flex flex-col flex-wrap w-full py-6">
         <div className='max-w-screen-2xl w-full mx-auto'>
-          <div className='flex justify-between content-center'>
+          <div className='flex justify-between items-center overflow-hidden'>
             {platformList.map((platform) => (
               <div key={platform.id} >
-                <img src={platform.image} alt={platform.name} className="h-24 max-w-96" />
+                <img src={platform.image} alt={platform.name} className="max-h-24 max-w-96" />
               </div>
             ))}
           </div>

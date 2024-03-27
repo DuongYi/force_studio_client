@@ -11,11 +11,10 @@ const CompanyProduct: React.FC<CompanyProductProps> = (props: CompanyProductProp
   return (
     <div className='pb-10'>
       <h1 className='text-black text-5xl font-bold max-w-screen-sm leading-[60px]'>{props.title}</h1>
-      <div className='flex justify-between items-start mt-10 gap-10'>
-        {props.products?.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))
-        }
+      <div className='grid grid-cols-4 items-start mt-10 gap-10'>
+        {props.products?.map((product) => {
+          return <ProductCard key={product.id} product={product} />;
+        })}
       </div>
     </div>
   );

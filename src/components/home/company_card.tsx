@@ -11,7 +11,7 @@ interface CompanyCardProps {
 
 const CompanyCard: React.FC<CompanyCardProps> = ({ icon, color, shadowColor, title, description }) => {
   return (
-    <div className="flex flex-col items-start justify-center my-20 shadow-[rgba(17,_17,_26,_0.08)_0px_0px_20px] p-5 rounded-2xl">
+    <div className="col-span-1 max-sm:col-span-3 items-start justify-center shadow-[rgba(17,_17,_26,_0.08)_0px_0px_20px] p-5 rounded-2xl">
       <div
         className={`relative w-14 h-14 rounded-[18px] ${color} shadow-md ${shadowColor}`}
       >

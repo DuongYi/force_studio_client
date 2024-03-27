@@ -10,10 +10,10 @@ interface CompanyDescriptionProps {
 
 const CompanyDescription: React.FC<CompanyDescriptionProps> = (props: CompanyDescriptionProps) => {
   return (
-    <div className='py-16 mt-20'>
+    <div className='py-16 my-20'>
       <h1 className='text-black text-center text-5xl font-bold mb-6 px-16 max-w-screen-lg mx-auto leading-[60px]'>{props.title}</h1>
       <p className='text-black text-center text-2xl max-w-screen-md mx-auto leading-8'>{props.description}</p>
-      <div className='flex gap-10'>
+      <div className='grid grid-cols-3 gap-10 mt-16'>
         {props.positiveList?.map((item) => (
           <CompanyCard key={item.id} icon={item.icon} color={item.color} shadowColor={item.shadowColor} title={item.title} description={item.description} />
         ))}
