@@ -10,7 +10,7 @@ interface PersonCardProps {
 
 const PersonCard: React.FC<PersonCardProps> = ({ name, jobTitle, image, link }) => {
   return (
-    <div className="relative flex-1 rounded-2xl shadow-2xl">
+    <div className="relative flex-1 rounded-2xl shadow-2xl min-h-96">
       <img className='rounded-2xl drop-shadow-lg h-full object-cover' src={image} alt={name} />
       <div className='absolute w-[94%] bottom-2 translate-x-[3%] z-20 p-3 rounded-2xl backdrop-blur-sm bg-white/50'>
         <h2 className='text-black text-center font-bold text-lg'>{name}</h2>

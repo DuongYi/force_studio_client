@@ -6,6 +6,7 @@ import HomeContent from "../components/home_content";
 import CompanyDescription from "../components/company_description";
 import CompanyProduct from "../components/company_product";
 import CompanyOutstanding from "../components/company_outstanding";
+import CompanyHiring from "../components/company_hiring";
 
 
 const HomePage: React.FC = () => {
@@ -25,6 +26,7 @@ const HomePage: React.FC = () => {
         <CompanyDescription />
         <CompanyProduct />
         <CompanyOutstanding />
+        <CompanyHiring />
       </HomeContent>
     </div>
   );
