@@ -29,8 +29,8 @@ const CompanyOutstanding: React.FC<CompanyOutstandingProps> = (props: CompanyOut
 };
 
 CompanyOutstanding.defaultProps = {
-  title: 'Get to know the exceptional professionals who make our team shine',
-  description: 'Discover the exceptional professionals talent driving our team success - our brilliant game developers.',
+  title: 'Tìm hiểu về những tài năng đặc biệt giúp đội ngũ chúng tôi tỏa sáng',
+  description: 'Hãy khám phá những tài năng chuyên nghiệp xuất chúng dẫn lối thành công cho đội ngũ của chúng tôi - những nhà phát triển game tài ba',
   members: [
     new CompanyPersonModel(1, 'Thị Dũng', 'CEO', 'asset/pictures/member/person_1.jpg', 'https://www.google.com'),
     new CompanyPersonModel(2, 'Đức Dương', 'HR', 'asset/pictures/member/person_2.jpg', 'https://www.google.com'),

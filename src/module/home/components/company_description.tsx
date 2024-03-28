@@ -10,7 +10,7 @@ interface CompanyDescriptionProps {
 
 const CompanyDescription: React.FC<CompanyDescriptionProps> = (props: CompanyDescriptionProps) => {
   return (
-    <div className='py-16 my-20'>
+    <div className='py-16 mt-1 md:mt-10 lg:mt-14 xl:mt-20 mb-7 md:mb-14 xl:mb-20'>
       <h1 className='text-black text-center text-xl sm:text-3xl lg:text-5xl font-bold mb-6 max-w-screen-lg mx-auto leading-[30px] sm:leading-[45px] lg:leading-[60px]'>{props.title}</h1>
       <p className='text-black text-center text-base sm:text-xl lg:text-2xl max-w-screen-md mx-auto leading-6 sm:leading-7 lg:leading-8'>{props.description}</p>
       <div className='grid grid-cols-3 gap-10 mt-16'>
@@ -24,12 +24,12 @@ const CompanyDescription: React.FC<CompanyDescriptionProps> = (props: CompanyDes
 
 // default props
 CompanyDescription.defaultProps = {
-  title: 'We believe strong company come from strong value and visions',
-  description: 'Building a foundation for success - the power of shared values and visions in creating a strong company.',
+  title: 'Chúng tôi tin rằng các công ty vững mạnh xuất phát từ những giá trị và tầm nhìn vững chắc',
+  description: 'Xây dựng nền tảng vững chắc cho thành công - Sức mạnh của giá trị và tầm nhìn chung trong việc tạo ra một công ty vững mạnh.',
   positiveList: [
-    new CompanyCardModel(1, "asset/pictures/icon/next.svg", "bg-[#ffc700]", "shadow-[#f2d885]", 'Collaborations #1', 'Fostering innovation and unlocking new possibilities through partnerships - the story of Collaborations #1.'),
-    new CompanyCardModel(2, "asset/pictures/icon/vercel.svg", "bg-[#24dbda]", "shadow-[#8ef2f2]", 'Keep Growing', 'Embracing change, cultivating resilience, and striving for excellence - the journey of those who Keep Growing.'),
-    new CompanyCardModel(3, "asset/pictures/icon/vercel.svg", "bg-[#80db24]", "shadow-[#c7fd92]", 'Team Chemistry', 'A cohesive team is greater than the sum of its parts, and the secret to our success lies in the unique contributions.'),
+    new CompanyCardModel(1, "asset/pictures/icon/next.svg", "bg-[#ffc700]", "shadow-[#f2d885]", 'Cộng tác #1', 'Bằng Sức Mạnh Cộng tác - Mở đường cho Sáng tạo và Khả năng Mới #1.'),
+    new CompanyCardModel(2, "asset/pictures/icon/vercel.svg", "bg-[#24dbda]", "shadow-[#8ef2f2]", ' Vươn lên', 'Chấp nhận thay đổi, nuôi dưỡng khả năng thích nghi và phấn đấu xuất sắc - Hành trình của những người Không ngừng phát triển.'),
+    new CompanyCardModel(3, "asset/pictures/icon/vercel.svg", "bg-[#80db24]", "shadow-[#c7fd92]", 'Sự gắn kết', 'Một đội ngũ gắn kết mạnh mẽ sẽ vượt trội hơn tổng các cá nhân riêng lẻ, và bí quyết thành công của chúng tôi nằm ở những đóng góp độc đáo của từng thành viên.'),
   ]
 };
 

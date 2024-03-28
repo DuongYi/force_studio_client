@@ -20,8 +20,8 @@ const CompanyHiring: React.FC<CompanyHiringProps> = (props: CompanyHiringProps) 
 };
 
 CompanyHiring.defaultProps = {
-  title: 'Join us and be the biggest games developers',
-  description: 'Unlock your potential and build your dream career in the exciting world of game development.',
+  title: 'Gia nhập đội ngũ của chúng tôi và trở thành những nhà phát triển game hàng đầu!',
+  description: 'Khai phá tiềm năng và xây dựng sự nghiệp mơ ước của bạn trong thế giới phát triển game đầy thú vị.',
   slogan: ' We are hiring!'
 };
 
