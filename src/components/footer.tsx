@@ -58,19 +58,19 @@ const Footer: React.FC = () => {
               </p>
               <div className='flex gap-3 items-start'>
                 <div className='flex flex-col gap-3'>
-                  <a href='#' className='p-2 bg-white rounded-full'>
-                    <img src='asset/pictures/icon/next.svg' alt='Facebook' className='w-3 h-3' />
+                  <a href='#' className='bg-white rounded-full'>
+                    <img src='asset/pictures/icon/facebook.svg' alt='Facebook' className='w-6 h-6' />
                   </a>
-                  <a href='#' className='p-2 bg-white rounded-full'>
-                    <img src='asset/pictures/icon/vercel.svg' alt='Twitter' className='w-3 h-3' />
+                  <a href='#' className='bg-white rounded-full'>
+                    <img src='asset/pictures/icon/instagram.svg' alt='Twitter' className='w-6 h-6' />
                   </a>
                 </div>
                 <div className='flex flex-col gap-3'>
-                  <a href='#' className='p-2 bg-white rounded-full'>
-                    <img src='asset/pictures/icon/vercel.svg' alt='Instagram' className='w-3 h-3' />
+                  <a href='#' className='bg-white rounded-full'>
+                    <img src='asset/pictures/icon/linkedin.svg' alt='Instagram' className='w-6 h-6' />
                   </a>
-                  <a href='#' className='p-2 bg-white rounded-full'>
-                    <img src='asset/pictures/icon/next.svg' alt='Instagram' className='w-3 h-3' />
+                  <a href='#' className='bg-white rounded-full'>
+                    <img src='asset/pictures/icon/youtube.svg' alt='Instagram' className='w-6 h-6' />
                   </a>
                 </div>
               </div>

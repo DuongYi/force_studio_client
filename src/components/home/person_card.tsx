@@ -12,7 +12,7 @@ const PersonCard: React.FC<PersonCardProps> = ({ name, jobTitle, image, link }) 
   return (
     <div className="col-span-1 max-xl:col-span-2 max-sm:col-span-5 relative rounded-2xl shadow-2xl h-80 lg:h-96">
       <img className='rounded-2xl drop-shadow-lg w-full h-full object-cover' src={image} alt={name} />
-      <div className='absolute w-[94%] bottom-2 translate-x-[3%] z-20 p-3 rounded-2xl backdrop-blur-sm bg-white/50'>
+      <div className='absolute w-[94%] bottom-2 translate-x-[3%] z-0 p-3 rounded-2xl backdrop-blur-sm bg-white/50'>
         <h2 className='text-black text-center font-bold text-lg'>{name}</h2>
         <h3 className='text-black text-center'>{jobTitle}</h3>
       </div>

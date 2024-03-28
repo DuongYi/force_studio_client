@@ -14,7 +14,7 @@ const Header: React.FC = () => {
 
   const scrollHeader = () => {
     console.log(window.scrollY);
-    if (window.scrollY >= 300) {
+    if (window.scrollY >= 100) {
       setHeader(true);
     } else {
       setHeader(false);
@@ -113,31 +113,34 @@ const Header: React.FC = () => {
         </div>
 
         <div
-          className={`flex-1 bg-white justify-self-center pb-3 md:pb-0 md:mt-0 md:hidden ${navbar ? 'md:p-0 block' : 'hidden'
+          className={`relative bg-white justify-self-center pb-3 md:pb-0 md:mt-0 md:hidden ${navbar ? 'md:p-0 block' : 'hidden'
             }`}
         >
           <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-            <li className="text-base font-semibold text-black py-4 px-5 text-start border-b-[1px] border-gray-200 hover:bg-teal-300 hover:text-white md:hover:bg-transparent">
+            <li className="text-base font-semibold text-green-500 py-4 px-5 text-start border-b-[1px] border-gray-200 hover:bg-teal-300 hover:text-white md:hover:bg-transparent">
               <Link href="#about" onClick={() => setNavbar(!navbar)}>
                 Trang chủ
               </Link>
             </li>
-            <li className="text-base font-semibold text-black py-4 px-5 text-start border-b-[1px] border-gray-200 hover:bg-teal-300 hover:text-white md:hover:bg-transparent">
+            <li className="text-base font-semibold text-green-500 py-4 px-5 text-start border-b-[1px] border-gray-200 hover:bg-teal-300 hover:text-white md:hover:bg-transparent">
               <Link href="#about" onClick={() => setNavbar(!navbar)}>
                 Giới thiệu
               </Link>
             </li>
-            <li className="text-base font-semibold text-black py-4 px-5 text-start border-b-[1px] border-gray-200 hover:bg-teal-300 hover:text-white md:hover:bg-transparent">
+            <li className="text-base font-semibold text-green-500 py-4 px-5 text-start border-b-[1px] border-gray-200 hover:bg-teal-300 hover:text-white md:hover:bg-transparent">
               <Link href="#about" onClick={() => setNavbar(!navbar)}>
                 Sản phẩm
               </Link>
             </li>
-            <li className="text-base font-semibold text-black py-4 px-5 text-start border-b-[1px] border-gray-200 hover:bg-teal-300 hover:text-white md:hover:bg-transparent">
+            <li className="text-base font-semibold text-green-500 py-4 px-5 text-start border-b-[1px] border-gray-200 hover:bg-teal-300 hover:text-white md:hover:bg-transparent">
               <Link href="#about" onClick={() => setNavbar(!navbar)}>
                 Tuyển dụng
               </Link>
             </li>
           </ul>
+          <div className="absolute bottom-36 left-0 right-0">
+            <p className='text-gray-500 text-center'>Force G. Studio © 2024</p>
+          </div>
         </div>
       </nav>
     </div>
