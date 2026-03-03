@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
             <div className='flex flex-col'>
               <div className="flex flex-wrap items-center">
                 <img src="asset/pictures/logo/logo_white.png" alt="Logo" className="w-20 h-20 mr-2" />
-                <span className="text-white text-lg font-bold">Force G. Studios</span>
+                <span className="text-white text-lg font-bold">Worm G. Studios</span>
               </div>
-              <p className="text-white text-xl sm:text-3xl lg:text-5xl font-bold tracking-wider mt-6">Force Game Studio.</p>
+              <p className="text-white text-xl sm:text-3xl lg:text-5xl font-bold tracking-wider mt-6">Worm Game Studio.</p>
               <p className="text-white text-xl sm:text-3xl lg:text-5xl font-bold tracking-wider mt-3">Lovely developers</p>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 border-t-[1px] border-gray-500 pt-4'>
-          <p className='text-white'>All Right Reserved, Force G. Studio © 2024</p>
+          <p className='text-white'>All Right Reserved, Worm Studio © 2026</p>
           <div className='flex gap-14 justify-end max-sm:justify-start'>
             <p className='text-gray-300'>Cookies</p>
             <p className='text-gray-300'>Quyền riêng tư</p>

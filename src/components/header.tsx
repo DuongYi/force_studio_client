@@ -36,15 +36,15 @@ const Header: React.FC = () => {
             {/* LOGO */}
             <Link href="/">
               <div className="flex items-center">
-                <Image
+                {/* <Image
                   src="/asset/pictures/logo/Force.png"
                   width={80}
                   height={80}
                   alt="logo"
                   className="focus:border-none active:border-none"
-                />
-                <div>
-                  <h1 className="text-xl font-extrabold text-black font-mono">Force</h1>
+                /> */}
+                <div className="px-4">
+                  <h1 className="text-xl font-extrabold text-black font-mono">Worm</h1>
                   <h2 className="text-xl font-extrabold text-black font-mono">Studio</h2>
                 </div>
               </div>
@@ -139,7 +139,7 @@ const Header: React.FC = () => {
             </li>
           </ul>
           <div className="absolute bottom-36 left-0 right-0">
-            <p className='text-gray-500 text-center'>Force G. Studio © 2024</p>
+            <p className='text-gray-500 text-center'>Worm Studio © 2026</p>
           </div>
         </div>
       </nav>

@@ -22,9 +22,7 @@ const HomePage: React.FC = () => {
       </div>
       <Platform />
       <HomeContent>
-        <CompanyDescription />
-        <CompanyProduct />
-        <CompanyOutstanding />
+        <CompanyDescription />  
         <CompanyHiring />
       </HomeContent>
     </div>

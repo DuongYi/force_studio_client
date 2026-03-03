@@ -10,7 +10,7 @@ interface CompanyOutstandingProps {
 
 const CompanyOutstanding: React.FC<CompanyOutstandingProps> = (props: CompanyOutstandingProps) => {
   return (
-    <div className='py-16 mt-5 mx-auto'>
+    <div className='py-16 mt-3 mx-auto'>
       <h1 className='text-black text-center text-xl sm:text-3xl lg:text-5xl font-bold mb-6 max-w-screen-lg mx-auto leading-[30px] sm:leading-[45px] lg:leading-[60px]'>{props.title}</h1>
       <p className='text-black text-center text-base sm:text-xl lg:text-2xl max-w-screen-md mx-auto leading-6 sm:leading-7 lg:leading-8'>{props.description}</p>
       <div className='grid grid-cols-5 justify-center gap-10 mt-16'>

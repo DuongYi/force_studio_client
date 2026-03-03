@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Froce Studio",
-  description: "CopyRight Froce Studio 2024",
+  title: "Worm Studio",
+  description: "CopyRight Worm Studio 2026",
   icons: [
     {
       url: '/asset/pictures/icon/favicon.ico',
